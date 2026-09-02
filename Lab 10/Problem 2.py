@@ -1,0 +1,8 @@
+import numpy as np
+
+arr = np.array([10, 20, 30, 20, 50])
+
+result = np.where(arr == 20)
+
+print("Positions where 20 is found:")
+print(result)
